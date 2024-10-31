@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F4F8;
+}
+
+/* ----------------------------- Navbar Start -------------------------------- */
+.navbar {
+    background-color: #F0F4F8;
+}
+
+.navbar-nav>a {
+    font-size: 18px;
+}
+
+/* ----------------------------- Navbar End -------------------------------- */
+
+/* ----------------------------- Top Banner Start -------------------------------- */
+.top-banner {
+    background-image: url("/Software_website/assets/images/developer.jpg");
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.top-banner>.title {
+    padding: 10% 8%;
+}
+
+@media (max-width: 768px) {
+
+    /* Tablets and smaller */
+    .custom-padding {
+        padding: 8% 6%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Mobile devices */
+    .custom-padding {
+        padding: 6% 4%;
+    }
+}
+
+/* ----------------------------- Top Banner End -------------------------------- */
