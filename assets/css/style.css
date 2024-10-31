@@ -21,7 +21,7 @@ body {
 
 /* ----------------------------- Top Banner Start -------------------------------- */
 .top-banner {
-    background-image: url("/Software_website/assets/images/developer.jpg");
+    background-image: url("/assets/images/developer.jpg");
     width: 100%;
     height: 85vh;
     background-position: center;
