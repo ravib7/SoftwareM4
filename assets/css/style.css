@@ -43,8 +43,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-    /* Tablets and smaller */
     .custom-padding {
         padding: 8% 6%;
     }
@@ -52,7 +50,6 @@ body {
 
 @media (max-width: 576px) {
 
-    /* Mobile devices */
     .custom-padding {
         padding: 6% 4%;
     }
