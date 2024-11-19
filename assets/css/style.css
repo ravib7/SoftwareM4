@@ -1,0 +1,240 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F4F8;
+}
+
+.section-gap {
+    margin: 50px 0px;
+}
+
+/* ----------------------------- Navbar Start -------------------------------- */
+.navbar {
+    background-color: #F0F4F8;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.icon {
+    background-color: #fff;
+}
+
+.navbar-nav>a {
+    font-size: 18px;
+}
+
+/* ----------------------------- Navbar End -------------------------------- */
+
+/* ----------------------------- Hero Section Start -------------------------------- */
+.top-banner {
+    background-image: url('../images/developer.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.top-banner>.title {
+    padding: 10% 8%;
+}
+
+@media (max-width:576px) {
+    .top-banner {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .title>h5 {
+        font-size: 16px;
+    }
+
+    .title>h1 {
+        font-size: 35px;
+    }
+
+}
+
+/* ----------------------------- Hero Section End -------------------------------- */
+
+/*------------------------- App-Download-Start ----------------------*/
+@media (min-width: 992px) {
+    .app-download {
+        width: 79%;
+    }
+
+    .overlay-section>img {
+        width: 83%;
+    }
+
+    .background-section {
+        position: relative;
+        z-index: 1;
+    }
+
+    .overlay-section {
+        position: absolute;
+        top: 40%;
+        left: 84%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+}
+
+@media (max-width: 991px) {
+    .app-download {
+        width: 75%;
+    }
+
+    .overlay-section {
+        position: relative;
+        text-align: center;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-top: 20px;
+        z-index: 1;
+    }
+}
+
+/*------------------------- App-Download-End ----------------------*/
+
+/*------------------------- Our-Goal-Start ----------------------*/
+.our-goal {
+    background-color: #fff;
+    padding: 70px 130px;
+}
+
+.our-goal>p,
+.our-work>p,
+.title {
+    font-size: 17px;
+}
+
+@media (max-width:576PX) {
+    .our-goal {
+        background-color: #fff;
+        padding: 70px 60px;
+    }
+}
+
+/*------------------------- Our-Goal-End -------------------------*/
+
+/* ---------------------------- Features-card-Start --------------- */
+.card-header {
+    overflow: hidden;
+}
+
+.img-animation {
+    transition: transform 0.3s ease;
+}
+
+.img-animation:hover {
+    transform: scale(1.1);
+}
+
+/* ---------------------------- Features-card-End --------------- */
+
+/* --------------------- Careers-Start ---------------------- */
+.careers {
+    padding: 120px 0px;
+    margin: 80px 0px;
+}
+
+.careers>.container {
+    width: 79%;
+    background-color: #fff;
+}
+
+/* --------------------- Careers-End ---------------------- */
+
+/* ------------- Our-Team-Members-section-Start ------------ */
+.card-animation {
+    transition: transform 0.3s ease;
+}
+
+.card-animation:hover {
+    transform: translateY(-10px);
+}
+
+/* ------------- Our-Team-Members-section-End -------------- */
+
+/* ----------------- Group-Image-Section-Start -------------- */
+.bg-image img {
+    width: 78vw;
+}
+
+.bg-text {
+    background-color: #fff;
+    width: 80%;
+    z-index: 2;
+    position: relative;
+    top: -50px;
+}
+
+@media(max-width:576px) {
+    .bg-image img {
+        width: 100%;
+    }
+
+    .bg-text {
+        background-color: #fff;
+        width: 80%;
+        z-index: 2;
+        position: relative;
+        top: -20px;
+    }
+}
+
+/* ----------------- Group-Image-Section-End -------------- */
+
+/* -------------- Testimonials-Section-Start ----------------- */
+.testimonials {
+    width: 79vw;
+}
+
+.text-color {
+    color: #fff;
+}
+
+.card-animation {
+    transition: transform 0.3em ease;
+}
+
+.card-animation:hover {
+    transform: translateY(-10px);
+}
+
+/* -------------- Testimonials-Section-End ------------------- */
+
+/* --------- Estimate-For-Project-Section-Start---------- */
+.Estimate {
+    width: 80%;
+}
+
+.input {
+    width: 100%;
+}
+
+/* --------- Estimate-For-Project-Section-End ----------- */
